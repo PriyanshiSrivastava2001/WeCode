@@ -22,32 +22,31 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="/WeCode/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" aria-current="page" href="/WeCode/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/WeCode/about.html">About</a>
                 </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         Topics
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Technology</a>
-                        <a class="dropdown-item" href="#">Web Development</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Support</a>
-                        <a class="dropdown-item" href="#">Write for us</a>
-                    </div>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://detailed.com/tech-blogs/" target="_blank">Technology</a></li>
+                        <li><a class="dropdown-item" href="https://www.w3schools.com/whatis/" target="_blank">Web Development</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Support</a></li>
+                        <li><a class="dropdown-item" href="#">Write for us</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="/WeCode/contact.html">Contact Us</a>
                 </li>
-
-
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -125,7 +124,6 @@
     </div>
 
     <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
         <p>© 2020-2021 WeCode, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
     </footer>
     <!-- Optional JavaScript -->
