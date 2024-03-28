@@ -4,4 +4,4 @@ Blogs will help in enlightening the viewers regarding various subjects such as W
 Technologies Used:\
 -> HTML\
 -> CSS\
--> Bootstrap\
+-> Bootstrap
